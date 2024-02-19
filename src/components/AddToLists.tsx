@@ -24,7 +24,7 @@ const AddToList: React.FC<IProps> = ({setPeople, people}) => {
 
     const handleClick = () => {
         if(!input.name || !input.age) return
-
+//set people
         setPeople([
             ...people,
             {
@@ -34,7 +34,7 @@ const AddToList: React.FC<IProps> = ({setPeople, people}) => {
                 note: input.note
             }
         ]);
-
+//set input
         setInput({
             name: "",
             age: "",
