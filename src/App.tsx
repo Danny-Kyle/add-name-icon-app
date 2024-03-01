@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import List from './components/Lists';
 import AddToList from './components/AddToLists';
 
+//define interface for the elements in the array and its properties
 export interface IState {
   people: {
       name: string
